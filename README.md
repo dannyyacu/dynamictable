@@ -68,7 +68,7 @@ python plot_time.py
 python plot_time_dummy.py
 ```
 
-[ ADD THE FIGURES YOU HAVE OBTAINED TO THIS README FILE. NOTICE THAT GITHUB HAS PROBLEMS HANDLING PNG FILES. USE JPG EXTENSION INSTEAD FOR YOUR FIGURES ]
+
 This is the resize dummy graph
 ![resizeDummyGraph](https://user-images.githubusercontent.com/75762142/191599524-299fc324-3c38-4efb-b930-e0e0ebb3247e.jpg)
 
