@@ -58,7 +58,7 @@ We want to test if it is true that by using the `dummy_resize` the complexity is
 
 What are the results you have obtained? What can we say about the two implementations?
 
-[ MODIFY THIS README FILE AND ADD HERE YOUR COMMENTS.]
+The results I have obtained is that the resize function has a high spike in its run time when it is resizing, but when the array is not full the run time is very steady. With the resize_dummy function, since the array is being resized a lot more frequently than the regular resize function, the run time is increasing linearly rather than just a few big spikes in the resize function runtime. I can say that overall the regular resize function is a more efficient way of implementing a dynamic table.
 
 
 Once the program has been executed you should get two files in output called `results.txt` and `results_dummy.txt`. If you are familiar with python you can run the following commands to get a graphical representation of the timings (be sure that `plot_time.py` and `results.txt` are in the same folder when you run it)
